@@ -34,10 +34,17 @@
         }
         .image1 {
             background-image: url('./existentialismand samadhi.webp');
+            height:500px;
         }
         .image2 {
             background-image: url('./spectra-light-healing.webp');
+             height:500px;
         }
+         .text1{
+             text-align: left;
+             font-size:2rem
+        }
+        
         .text1, .text2 {
             display: flex;
             justify-content: center;
@@ -47,14 +54,16 @@
         }
         .text2 {
             text-align: right;
+            font-size:2rem
         }
         @media (max-width: 768px) {
             .container {
                 grid-template-columns: 1fr;
                 grid-template-rows: auto auto auto auto;
             }
-            .text2 {
+            .text2,.text1 {
                 text-align: center;
+                font-size:1rem
             }
         }
     </style>
